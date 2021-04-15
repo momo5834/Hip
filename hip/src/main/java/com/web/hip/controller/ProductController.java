@@ -34,4 +34,9 @@ public class ProductController {
 		model.addAttribute("pageNum", pageNum);
 		return "/product/productlist";
 	}
+	
+	@RequestMapping("productinsertForm")
+	public String productinsertForm() {
+		return "/product/productinsertForm";
+	}
 }

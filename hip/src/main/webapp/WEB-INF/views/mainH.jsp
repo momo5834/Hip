@@ -41,6 +41,7 @@
 .product-item {
 	margin: 10px;
 	padding: 5px;
+	list-style: none;
 }
 </style>
 <title>Insert title here</title>
@@ -68,11 +69,31 @@
 </div>
 <nav class="nav navber product-item">
 	<div class="container" align="center">
-		<a href="productlist.do">OUTER</a>
-		<a href="productlist.do">TOP</a>
-		<a href="productlist.do">BOTTOM</a>
-		<a href="productlist.do">SHOES</a>
-		<a href="productlist.do">ACC</a>
+		<ul><li><a href="productlist.do?pnum=O">OUTER</a>
+			<ul><li><a href="productlist.do?pnum=O0">PADDING</a></li></ul>
+			<ul><li><a href="productlist.do?pnum=O1">COAT</a></li></ul>
+			<ul><li><a href="productlist.do?pnum=O2">JAKET</a></li></ul>
+		</li></ul>
+		<ul><li><a href="productlist.do?pnum=T">TOP</a>
+			<ul><li><a href="productlist.do?pnum=T0">SHIRT</a></li></ul>	
+			<ul><li><a href="productlist.do?pnum=T1">1/2 T-SHIRT</a></li></ul>
+			<ul><li><a href="productlist.do?pnum=T2">T-SHIRT</a></li></ul>
+			<ul><li><a href="productlist.do?pnum=T3">HOODY</a></li></ul>
+			<ul><li><a href="productlist.do?pnum=T4">KNIT</a></li></ul>
+		</li>
+		</ul>
+	<ul><li><a href="productlist.do?pnum=B">BOTTOM</a>
+		<ul><li><a href="productlist.do?pnum=B0">DENIM</a></li></ul>
+		<ul><li><a href="productlist.do?pnum=B1">SLACKS</a></li></ul>	
+		<ul><li><a href="productlist.do?pnum=B2">SHORT PANTS</a></li></ul>
+		<ul><li><a href="productlist.do?pnum=B3">COTTON PANTS</a></li></ul>
+	</li></ul>
+	<ul><li><a href="productlist.do?pnum=S">SHOES</a>
+		<ul><li><a href="productlist.do?pnum=S0">SNIKERS</a></li></ul>
+		<ul><li><a href="productlist.do?pnum=S1">BOOTS</a></li></ul>
+		<ul><li><a href="productlist.do?pnum=S2">LOAFERS</a></li></ul>
+	</li></ul>
+	<ul><li><a href="productlist.do?pnum=A">ACC</a></li></ul>
 </div>
 </nav>
 </header>

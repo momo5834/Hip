@@ -13,6 +13,14 @@
 	<c:if test="${empty list}">
 		<div align="center">데이터가 없습니다</div>
 	</c:if>
+	<c:if test="${not empty list}">
+		<c:forEach var="p" items="${list}">
+			<div>
+				
+			</div>
+		</c:forEach>
+	</c:if>
+<a class="btn btn-sm btn-default" href="productinsertForm.do">상품 등록</a>
 </div>
 </body>
 </html>
